@@ -1,0 +1,17 @@
+{
+  "name": "gradients-studio",
+  "description": "Gradients Studio for Claude Code: gradient backgrounds at exact sizes, from a plain-language brief.",
+  "owner": {
+    "name": "Anusandhan Pokhrel",
+    "url": "https://www.gradients.studio"
+  },
+  "plugins": [
+    {
+      "name": "gradients-studio",
+      "source": "./",
+      "description": "Gradient backgrounds for website heroes, OG images, launch posts and decks, rendered at exact sizes.",
+      "version": "1.1.0",
+      "category": "design"
+    }
+  ]
+}

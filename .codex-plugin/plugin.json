@@ -1,0 +1,31 @@
+{
+  "name": "gradients-studio",
+  "version": "1.1.0",
+  "description": "Gradient backgrounds for website heroes, OG images, launch posts and decks. Free previews with no key; exact-size exports with a free API key.",
+  "author": {
+    "name": "Anusandhan Pokhrel",
+    "url": "https://www.gradients.studio"
+  },
+  "homepage": "https://www.gradients.studio/mcp",
+  "repository": "https://github.com/anusandhan/gradients-studio-mcp",
+  "license": "MIT",
+  "keywords": ["gradient", "background", "og-image", "hero", "design", "mcp"],
+  "mcpServers": "./.codex-plugin/mcp.json",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Gradients Studio",
+    "shortDescription": "Gradient backgrounds at exact sizes",
+    "longDescription": "Describe a background in plain words and get a designed gradient (grain, pixel and dither finishes, your logo as an overlay) at the exact size your hero, OG image or slide needs. Previews are free with no key.",
+    "developerName": "Gradients Studio",
+    "category": "Design",
+    "capabilities": ["MCP", "Skills"],
+    "websiteURL": "https://www.gradients.studio/mcp",
+    "privacyPolicyURL": "https://www.gradients.studio/privacy",
+    "termsOfServiceURL": "https://www.gradients.studio/terms",
+    "defaultPrompt": [
+      "Use $gradient-backgrounds to add a dark, grainy hero background to the landing page, something like Linear.",
+      "Use $gradient-backgrounds to make a 1200x630 OG image background in our brand colors."
+    ],
+    "brandColor": "#4A3EC2"
+  }
+}

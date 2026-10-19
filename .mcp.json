@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "gradients": {
+      "type": "http",
+      "url": "https://www.gradients.studio/mcp",
+      "headers": {
+        "Authorization": "Bearer ${GRADIENTS_STUDIO_KEY:-}"
+      }
+    }
+  }
+}

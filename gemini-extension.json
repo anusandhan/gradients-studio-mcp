@@ -1,0 +1,11 @@
+{
+  "name": "gradients-studio",
+  "version": "1.1.0",
+  "description": "Gradient backgrounds for website heroes, OG images, launch posts and decks, rendered at exact sizes by Gradients Studio.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "gradients": {
+      "httpUrl": "https://www.gradients.studio/mcp"
+    }
+  }
+}

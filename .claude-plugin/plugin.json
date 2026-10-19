@@ -1,0 +1,13 @@
+{
+  "name": "gradients-studio",
+  "version": "1.1.0",
+  "description": "Gradient backgrounds for website heroes, OG images, launch posts and decks. Free previews with no key; exact-size exports with a free API key.",
+  "author": {
+    "name": "Anusandhan Pokhrel",
+    "url": "https://www.gradients.studio"
+  },
+  "homepage": "https://www.gradients.studio/mcp",
+  "repository": "https://github.com/anusandhan/gradients-studio-mcp",
+  "license": "MIT",
+  "keywords": ["gradient", "background", "mesh gradient", "og image", "hero", "design", "mcp"]
+}

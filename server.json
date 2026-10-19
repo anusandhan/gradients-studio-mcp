@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.anusandhan/gradients-studio",
+  "title": "Gradients Studio",
+  "description": "Gradient backgrounds for heroes, OG images and decks: free previews, exact-size exports with a key.",
+  "version": "1.1.0",
+  "websiteUrl": "https://www.gradients.studio/mcp",
+  "repository": {
+    "url": "https://github.com/anusandhan/gradients-studio-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.gradients.studio/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Only needed for sized exports (download URLs); previews work without it. Create a key at https://www.gradients.studio/app?keys=1",
+          "isRequired": false,
+          "isSecret": true,
+          "value": "Bearer {api_key}",
+          "variables": {
+            "api_key": {
+              "description": "Gradients Studio API key (starts with gs_live_)",
+              "isSecret": true,
+              "placeholder": "gs_live_..."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
