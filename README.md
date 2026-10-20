@@ -1,3 +1,5 @@
+[![Gradients Studio MCP](https://www.gradients.studio/img?preset=daybreak&w=1280&h=320&text=Gradients%20Studio%20MCP&sub=Gradient%20backgrounds%20for%20coding%20agents)](https://www.gradients.studio/readme-header)
+
 # Gradients Studio MCP
 
 Gradient backgrounds for coding agents. Describe the background in plain words ("dark, grainy, a bit like Linear") and your agent previews it, adjusts it, and drops the finished file into your repo at the exact size the layout needs: a website hero, an OG image, a launch post, a slide.
