@@ -26,6 +26,8 @@
       "Use $gradient-backgrounds to add a dark, grainy hero background to the landing page, something like Linear.",
       "Use $gradient-backgrounds to make a 1200x630 OG image background in our brand colors."
     ],
-    "brandColor": "#4A3EC2"
+    "brandColor": "#4A3EC2",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
   }
 }
